@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* 
+OBS
+-body é o seletor 
+-background é uma propriedade 
+-a cor escolhida é o valor
+
+cascading do css significa que quando há 2 ou mais declarações a última será mais relevante
+
+-id é um identificador único
+-span é inline
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #ffedd5;
+}
+
+header {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 32px 0px 32px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 4px;
+}
+
+header h1 span {
+    color: #995000;
+}
+
+section {
+    max-width: 300px;
+    margin: 0 auto 24px;
+    text-align: center;
+}
+
+section h2 {
+    background-color: #fed7aa;
+    padding: 16px 8px;
+    margin-bottom: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+strong {
+    flex: 1;
+}
+
+.details {
+    flex: 2;
+}
+
+.details h3 {
+    margin-bottom: 8px;
+}
+
+ul li div {
+   
+}
