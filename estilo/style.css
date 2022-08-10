@@ -19,6 +19,7 @@ cascading do css significa que quando há 2 ou mais declarações a última ser�
 
 body {
     background-color: #ffedd5;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -28,12 +29,26 @@ header {
     text-align: center;
 }
 
+h1, h2, h3, .price {
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+    color: #2d2c2a;
+}
+
 header h1 {
     margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 33px;
 }
 
 header h1 span {
     color: #995000;
+}
+
+header p {
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 section {
@@ -46,6 +61,7 @@ section h2 {
     background-color: #fed7aa;
     padding: 16px 8px;
     margin-bottom: 24px;
+    font-size: 18px;
 }
 
 ul {
@@ -68,6 +84,14 @@ strong {
 
 .details h3 {
     margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.details p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 21px;
 }
 
 ul li div {
